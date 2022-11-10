@@ -1,5 +1,5 @@
 FROM debian:stretch-slim
-ARG tarball=chirp-daily-20200718.tar.gz
+ARG tarball=chirp-daily-20221109.tar.gz
 RUN useradd -md /home/chirp chirp
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
